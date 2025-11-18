@@ -1,0 +1,48 @@
+.faculty-list-container {
+  background-color: #ffffff;
+  border: 1px solid #000;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 4px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.faculty-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.faculty-table th,
+.faculty-table td {
+  border: 1px solid #000;
+  padding: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.faculty-table th {
+  font-weight: bold;
+  background-color: #f9f9f9;
+}
+
+.action-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.action-button:hover {
+  opacity: 0.8;
+}

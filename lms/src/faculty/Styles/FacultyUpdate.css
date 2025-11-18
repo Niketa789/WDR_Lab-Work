@@ -1,0 +1,57 @@
+.faculty-update-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.faculty-update-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.faculty-update-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.faculty-update-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.faculty-update-form input,
+.faculty-update-form select {
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid black;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-button,
+.cancel-button {
+  padding: 8px 16px;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.update-button:hover,
+.cancel-button:hover {
+  background-color: black;
+  color: white;
+}
